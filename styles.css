@@ -2568,4 +2568,57 @@ body {
     .hero__form .form__group {
         margin-bottom: 16px;
     }
+}
+
+@media (max-width: 768px) {
+    .contacts__form {
+        margin-top: 40px;
+    }
+
+    .contacts__form .form {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contacts__form .form__group {
+        margin-bottom: 0;
+    }
+
+    .contacts__form .form__group input,
+    .contacts__form .form__group textarea {
+        padding: 12px 16px;
+        font-size: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: var(--color-white);
+        transition: all 0.3s ease;
+    }
+
+    .contacts__form .form__group input::placeholder,
+    .contacts__form .form__group textarea::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    .contacts__form .form__group input:focus::placeholder,
+    .contacts__form .form__group textarea:focus::placeholder {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .contacts__form .form__group textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+
+    .contacts__form .form__checkbox {
+        margin-top: 20px;
+    }
+
+    .contacts__form .form__button {
+        margin-top: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
+    }
 } 
