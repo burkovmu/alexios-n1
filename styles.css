@@ -1934,9 +1934,9 @@ body {
     }
 
     .hero__title {
-        font-size: 56px;
+        font-size: 64px;
         line-height: 1.2;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         padding: 0;
         width: 100%;
     }
@@ -1945,6 +1945,7 @@ body {
         font-size: 18px;
         margin-bottom: 30px;
         line-height: 1.4;
+        margin-top: 20px;
     }
 
     .hero__details {
