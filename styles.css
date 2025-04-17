@@ -1918,13 +1918,13 @@ body {
 
     /* Hero */
     .hero {
-        padding: 40px 0;
+        padding: 60px 0;
         min-height: auto;
     }
 
     .hero__content {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 40px;
         padding: 0 15px;
     }
 
@@ -1934,34 +1934,36 @@ body {
     }
 
     .hero__title {
-        font-size: 48px;
+        font-size: 56px;
         line-height: 1.2;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        padding: 0;
+        width: 100%;
     }
 
     .hero__subtitle {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 18px;
+        margin-bottom: 30px;
         line-height: 1.4;
     }
 
     .hero__details {
         flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
+        gap: 20px;
+        margin-top: 40px;
     }
 
     .detail {
-        padding: 20px;
+        padding: 25px;
         text-align: center;
     }
 
     .detail__label {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .detail__value {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .hero__image {
@@ -1970,14 +1972,9 @@ body {
         max-width: 300px;
     }
 
-    .hero__image img {
-        width: 100%;
-        height: auto;
-    }
-
     .hero__form {
         order: 3;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     /* Services */
@@ -2573,7 +2570,10 @@ body {
 @media (max-width: 768px) {
     .contacts__form {
         margin-top: 40px;
-        padding: 0 16px;
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .contacts__form .form-card {
