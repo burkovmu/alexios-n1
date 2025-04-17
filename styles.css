@@ -1934,9 +1934,9 @@ body {
     }
 
     .hero__title {
-        font-size: 32px;
-        margin-bottom: 15px;
+        font-size: 48px;
         line-height: 1.2;
+        margin-bottom: 20px;
     }
 
     .hero__subtitle {
